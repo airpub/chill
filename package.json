@@ -7,7 +7,7 @@
   "scripts": {
     "less": "node_modules/.bin/lessc -x less/chill.less css/chill.min.css",
     "watch": "node_modules/.bin/rewatch less/*.less -c 'npm run less'",
-    "dev": "npm run watch & npm run less"
+    "dev": "npm run watch"
   },
   "repository": {
     "type": "git",
