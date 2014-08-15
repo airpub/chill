@@ -1,0 +1,4 @@
+*.DS_*
+node_*
+bower_*
+*.log
