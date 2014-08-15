@@ -2,3 +2,4 @@
 node_*
 bower_*
 *.log
+*.sublime-*
