@@ -32,15 +32,20 @@ header {
     @media @mobile {
       width: 90%;
       text-align: center;
-      span.description {
-        display: none;
-      }
     }
   }
 }
 
 header.admin {
   height: 80px;
+  @media @mobile {
+    h1 {
+      text-align: left;
+    }
+    span.description {
+      display: none;
+    }
+  }
 }
 
 header.archive, header.admin {
