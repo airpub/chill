@@ -28,7 +28,7 @@
     display: block;
     text-align: center;
     font-weight: bold;
-    margin: -25px 0 10px;
+    margin: 20px 0 10px;
     border: 2px solid #ddd;
     background-color: #fff;
     &:hover {
@@ -40,7 +40,6 @@
       box-shadow: none;
     }
     @media @mobile {
-      margin-top: 0px;
       width: 100%;
     }
   }
@@ -49,6 +48,10 @@
     display: block;
     font-size: 12px;
     float: left;
+    cursor: pointer;
+    @media @mobile {
+      width: 100%;
+    }
   }
 }
 
