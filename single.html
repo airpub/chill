@@ -25,7 +25,7 @@
       </div>
     </section>
     <!-- article section -->
-    <section class="content" ng-bind-html="article.content | marked"></section>
+    <section class="content" ng-bind-html="article.content | marked: 'code:.code-section>.container>.row>.col-lg-8 .col-lg-offset-2' : 'all:.container>.row>.col-lg-8 .col-lg-offset-2'"></section>
     <!-- author section -->
     <section class="author-section" ng-show="author" ng-cloak>
       <div class="container">
