@@ -23,6 +23,6 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "~4.1.0"
+    "fontawesome": "~4.2.0"
   }
 }
